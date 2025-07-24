@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Enrollment Form</title>
+    <script src="script.js"></script>
+    <style>
+        body { font-family: Arial; background: #f4f4f4; padding: 20px; }
+        input, button { padding: 8px; margin: 5px; }
+        fieldset { width: 300px; }
+    </style>
+</head>
+<body onload="initForm()">
+    <h2>Student Enrollment Form</h2>
+    <fieldset>
+        <legend>Enter Student Details</legend>
+        <input type="text" id="rollNo" placeholder="Roll No"><br>
+        <input type="text" id="fullName" placeholder="Full Name" disabled><br>
+        <input type="text" id="studentClass" placeholder="Class" disabled><br>
+        <input type="date" id="birthDate" disabled><br>
+        <input type="text" id="address" placeholder="Address" disabled><br>
+        <input type="date" id="enrollDate" disabled><br>
+    </fieldset>
+    <br>
+    <button id="saveBtn" onclick="saveData()" disabled>Save</button>
+    <button id="updateBtn" onclick="updateData()" disabled>Update</button>
+    <button onclick="resetForm()">Reset</button>
+</body>
+</html>
