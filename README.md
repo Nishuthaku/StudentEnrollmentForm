@@ -7,9 +7,9 @@ The project allows users to **add or update student data** based on a unique Rol
 It demonstrates the use of **JsonPowerDB's API** with a GUI built using HTML and JavaScript.
 
 ---
-Screenshot (UI Demo)
+ 📸 Screenshot (UI Demo)
 
-![Student Enrollment Form UI](d09d4eff-7e58-40c4-bd3f-aeb70bbabe8e.png)
+![Student Enrollment Form UI](Screenshot%20(83).png)
 
 
 ## 🚀 Benefits of using JsonPowerDB
